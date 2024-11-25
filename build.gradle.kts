@@ -23,7 +23,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testImplementation("org.testcontainers:testcontainers:1.20.3")
+    testImplementation("org.testcontainers:testcontainers:1.20.4")
 }
 
 tasks.withType<KotlinCompile> {
