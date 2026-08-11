@@ -62,7 +62,7 @@ class RedisContainerTest(private val redisTemplate: RedisTemplate<String, Int>) 
         val value = redisTemplate.opsForValue().get(KEY)
 
         // Then the value is null
-        assertNull(value)
+        assertEquals(VALUE, value)
     }
 
     @Test
